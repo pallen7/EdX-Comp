@@ -1,0 +1,5 @@
+C:\Development\Study\EdX-CodingComps\1a A+B\1a A+B\obj\Debug\1a A+B.exe
+C:\Development\Study\EdX-CodingComps\1a A+B\1a A+B\obj\Debug\1a A+B.pdb
+C:\Development\Study\EdX-CodingComps\1a A+B\1a A+B\1a A+B.exe.config
+C:\Development\Study\EdX-CodingComps\1a A+B\1a A+B\1a A+B.exe
+C:\Development\Study\EdX-CodingComps\1a A+B\1a A+B\1a A+B.pdb
