@@ -34,6 +34,8 @@ public class Program
 			{
 				maxDivisors=result;
 				mostDivisible=i;
+				Console.WriteLine("maxDivisors:" + maxDivisors);
+				Console.WriteLine("mostDivisible:" + mostDivisible);
 			}
 			
 			// Console.WriteLine("i=" + i + ". result=" + result);
@@ -43,8 +45,8 @@ public class Program
 		
 		var divisors = DivisorCount(input);
 		
-        // Console.WriteLine("Start:" + start);
-        // Console.WriteLine("Divisors:" + divisors);
+        Console.WriteLine("Start:" + start);
+        Console.WriteLine("Divisors:" + divisors);
 		
 		
 		var answer = (input - mostDivisible) + 1;
@@ -90,6 +92,9 @@ public class Program
 	
 	private static int DivisorCount(int number)
 	{
+		// Workaround
+		if (number == 1) return 1;
+		
 		int result=1;
 		int maxLoop = number/2;
 		
